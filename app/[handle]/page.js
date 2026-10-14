@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 export default async function Page({ params }) {
     const { handle } = await params
     const client = await clientPromise;
-    const db = client.db("LinkTree");
+    const db = client.db("BitTree");
     const collection = db.collection("links");
 
     const item = await collection.findOne({ handle: handle })

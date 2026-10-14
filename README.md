@@ -1,20 +1,19 @@
 # BitTree - Your Professional Link Sharing Hub 🔗
 
-BitTree is a full-stack "Link in Bio" application that replicates the core functionality of Linktree. It allows users to centralize their digital presence by hosting all social and professional links on a single, customizable landing page.
+BitTree is a polished link-in-bio platform designed for creators, developers, and professionals to showcase their work, portfolio, social media, and contact details from one clean profile.
 
 ## 🚀 Features
-- **Full-Stack Power:** Powered by Next.js for both frontend and server-side logic.
-- **Database Integration:** Uses MongoDB with Mongoose to store and manage link data persistently.
-- **Dynamic Routing:** Serving custom profiles and link data in real-time using Next.js App Router.
-- **Modern UI:** Styled with Tailwind CSS for a sleek, professional look.
-- **Fully Responsive:** Works perfectly on mobile, tablet, and desktop.
-
+- **Full-Stack App:** Built with Next.js for the frontend, API routes, and routing.
+- **MongoDB Integration:** Stores profile data and links securely in a database.
+- **Dynamic User Pages:** Generates profile pages for custom handles using the App Router.
+- **Modern UI:** Includes a branded, recruiter-friendly design with a clean visual style.
+- **Responsive Layout:** Works across mobile, tablet, and desktop screens.
 
 ## 🛠️ Tech Stack
-- **Framework:** Next.js (React)
-- **Database:** MongoDB & Mongoose
+- **Framework:** Next.js
+- **Database:** MongoDB
 - **Styling:** Tailwind CSS
-- **Environment:** Dotenv for secure configuration
+- **Runtime:** React + JavaScript
 
 ## 📖 Installation & Setup
 1. Clone the repo: `git clone https://github.com/astoriaking15/BitTree.git`
@@ -22,8 +21,8 @@ BitTree is a full-stack "Link in Bio" application that replicates the core funct
 3. Create a `.env` file and add your `MONGODB_URI`.
 4. Start the dev server: `npm run dev`
 
-## 🎓 Credits
-This project was built as part of my learning journey through the "Sigma Web Development" course by CodeWithHarry. While the UI reflects the Linktree design, I manually wrote the backend logic and integrated the database to deepen my understanding of the MERN stack.
+## 🎯 Project Goal
+This project was created as a personal portfolio-style clone of the link-in-bio concept, redesigned with a custom BitTree identity to feel more original and professional for recruiters and clients.
 
 ##
 *Created with ❤️ by astoriaking15*

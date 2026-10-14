@@ -66,12 +66,12 @@ const Generate = () => {
     return (
         <div className='bg-white min-h-screen grid lg:grid-cols-2'>
             <div className="col1">
-                <div className="logo m-7">
-                    <img width={140} src="/logo.png" alt="logo" />
+                <div className="logo m-7 mb-5 ml-10">
+                    <img src="/bittree.svg" alt="bittree logo" width={145} />
                 </div>
                 <div className='flex justify-center items-center flex-col gap-7 p-4'>
                     <h1 className='font-bold text-4xl'>Welcome back</h1>
-                    <h2 className='text-xl'>Create your Linktree</h2>
+                    <h2 className='text-xl'>Create your BitTree</h2>
                     <div className='flex flex-col gap-5'>
                         <input className='bg-[#f6f7f5] focus:outline-black px-5 py-2 rounded-lg' type="text" placeholder="Choose a handle" value={handle || ""} onChange={e => { sethandle(e.target.value) }} />
                         {links && links.map((item, index) => {
@@ -86,7 +86,7 @@ const Generate = () => {
                         <input className='bg-[#f6f7f5] focus:outline-black px-5 py-2 rounded-lg' type="text" placeholder="Enter link to your picture" value={pic || ""} onChange={e => { setpic(e.target.value) }} />
                         <input className='bg-[#f6f7f5] focus:outline-black px-5 py-2 rounded-lg' type="text" placeholder="Enter description" value={desc || ""} onChange={e => { setdesc(e.target.value) }} />
 
-                        <button className='disabled:bg-gray-400  bg-black text-white py-2 rounded-lg' onClick={() => { submitLinks() }} disabled={pic == "" || handle == "" || links[0].linktext == ""} >Create Linktree</button>
+                        <button className='disabled:bg-gray-400  bg-black text-white py-2 rounded-lg' onClick={() => { submitLinks() }} disabled={pic == "" || handle == "" || links[0].linktext == ""} >Create BitTree</button>
                     </div>
                 </div>
             </div>
