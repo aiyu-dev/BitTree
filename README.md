@@ -75,7 +75,7 @@ BitTree is a full-stack link-in-bio web app where anyone can create a personal p
 
 ## 🎯 Project Goal
 
-I built this project to practice full-stack development and to learn how the frontend, API routes, and database work together in a Next.js app. It is a clone of the link-in-bio concept, built while following a tutorial.
+I built this project to practice full-stack development and to learn how the frontend, API routes, and database work together in a Next.js app. It is a Linktree-inspired project build for learning purposes.
 
 ---
 
@@ -83,7 +83,7 @@ I built this project to practice full-stack development and to learn how the fro
 
 This project is based on [CodeWithHarry's](https://www.youtube.com/@CodeWithHarry) BitTree tutorial, which I followed to learn full-stack development with Next.js and MongoDB.
 
-**My own contributions:**
+**My Enhancements:**
 - Designed and built the second landing page section ("Create and customize your BitTree")
 - Created the BitTree logo
 - Designed and built the navbar
