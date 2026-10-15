@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from 'react'
+import React, { useState, Suspense } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useSearchParams } from 'next/navigation';
@@ -99,4 +99,10 @@ const Generate = () => {
     )
 }
 
-export default Generate
+export default function Page() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <Generate />
+    </Suspense>
+  )
+}
