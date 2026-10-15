@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Navbar = () => {
     return (
         <nav className='bg-white flex justify-between w-[80vw] fixed top-10 right-[10vw] rounded-full p-3 px-3 pl-8 mb-7'>
-            <div className="logo flex items-center">
+            <div className="logo flex items-center cursor-pointer">
                 <img src="/bittree.svg" alt="bittree logo" width={150} />
 
                 <ul className='gap-7 xl:flex hidden'>
@@ -17,8 +17,8 @@ const Navbar = () => {
             </div>
 
             <div className="hidden md:flex gap-2">
-                <button className="login bg-gray-200 rounded-lg px-4 py-3 ">Log in</button>
-                <button className="signup bg-gray-800 text-white p-4 rounded-full">Signup up free</button>
+                <button className="login bg-gray-200 rounded-lg px-4 py-3 cursor-pointer">Log in</button>
+                <button className="signup bg-gray-800 text-white p-4 rounded-full cursor-pointer">Sign up free</button>
             </div>
         </nav>
     )
